@@ -2,7 +2,7 @@
 
 internal static class FrenchNorwegianDict
 {
-    public static Dictionary<string, string> Dictionary = new() {
+    public static Dictionary<string, string> DictionaryVerb = new() {
         //Verb-ER
             {"Ranger", "Å rydde"},
             {"Achetter", "Å kjøpe"},
@@ -42,4 +42,25 @@ internal static class FrenchNorwegianDict
             {"Réussir", "Å Lykkes"}
 
         };
+    public static Dictionary<string, string> DictionarySubstantiv = new()
+    {
+        {"La pommes", "Eple"},
+        {"Le canard", "And"},
+        {"La chambre", "Soverom"},
+        {"Le dauphin", "Delfin" }
+    };
+    public static Dictionary<string, string> DictionaryAdjektiv = new()
+    {
+        //Farger
+        {"Rouge", "Rød" },
+        {"Maron", "Brun"},
+        {"gris", "Grå"},
+        {"Vert", "grønn"},
+    };
+    public static Dictionary<string, string> DictionaryUtrykk = new()
+    {
+        {"Ah bon ?", "Å ja?"},
+        {"Avant", "Før"},
+        {"À plus !", "Snakkes!"}
+    };
 }
